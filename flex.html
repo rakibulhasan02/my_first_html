@@ -18,6 +18,7 @@
             display: flex;
             gap: 20px;
             flex-wrap: wrap;
+
         }
         .user{
             border: 2px solid red;
@@ -28,9 +29,21 @@
         }
 
     </style>
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
-    <div class="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="center.html">Center</a></li>
+                <li><a href="flex.html">Flex</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="auto.html">Auto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
         <!-- .box{$}*5 -->
           <div class="box">1</div>
           <div class="box">2</div>
@@ -61,6 +74,7 @@
           <div class="user">user: 19</div>
           <div class="user">user: 20</div>
         </div>
+    </main>
    
 </body>
 </html>
