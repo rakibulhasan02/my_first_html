@@ -1,0 +1,33 @@
+nav{
+    background-color: lightblue;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    align-items: center;
+    width: 90%;
+
+}
+nav ul{
+    list-style: none;
+    
+ 
+ margin-right: 200px;
+
+ 
+ 
+}
+
+nav ul li{
+    display: inline-block;
+    
+    margin-left: 20px;
+}
+nav a{
+    text-decoration: none;
+    border: black 1px solid;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 3px;
+    ;
+}
